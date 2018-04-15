@@ -1,0 +1,12 @@
+1、已封装的函数文件：
+img_face_rec    对参数中的人脸进行识别（图片文件路径或图像内容）
+init_img        采集样本人脸图片
+
+2、其他文件(尚未函数化)
+save_classifier 利用 Dlib19.6.1训练并保存识别模型到classier.json文件
+capdec          利用 Dlib19.6.1实现摄像头人脸检测、识别
+face_rec        利用 Dlib19.6.1训练并识别目标文件夹图片
+picget          利用 requests==2.18.4和beautifulsoup4==4.6.0 爬取图片并识别
+test            测试脚本
+requirement.txt 关键库的版本请以其中为准（其中还有很多不需要的库）
+
